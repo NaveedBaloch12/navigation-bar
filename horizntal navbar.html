@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main li{
+            overflow: hidden;
+
+        }
+
+        .main-li ul {
+            display: flex;
+            list-style: none;
+            background-color: rgb(33, 33, 33);
+            color: white;
+            padding: 14px 20px;
+        }
+
+        .main-li li a {
+            text-decoration: none;
+            padding: 14px 20px;
+            color: white;
+            font-size: 20px;
+        }
+        .main-li li a:hover {
+            background-color: gray;
+            text-decoration: underline;
+        }
+        input{
+            float: right;
+            size: 17px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <dv class="main-li">
+            <ul>
+                <li class="home-li"><a href="#">Home</a></li>
+                <li class="news-li"><a href="#">News</a></li>
+                <li class="cont-li"><a href="#">Contact</a></li>
+                <li class="about-li"><a href="#">About</a></li>
+                <!-- <input type="text" placeholder="Search.."> -->
+            </ul>
+        </dv>
+    </header>
+</body>
+
+</html>
